@@ -16,17 +16,17 @@ export const MaintenanceCard: React.FC = () => {
         {/* Logo Section */}
         <div className="flex justify-center mb-10">
           <div className="relative transform transition-transform duration-500 hover:scale-105">
-              <Logo height={52} />
+              <img src="/logo.svg" alt="Cognifik" className="h-10" />
           </div>
         </div>
 
         {/* Content Section */}
         <div className="space-y-5">
-          <h1 className="text-3xl md:text-4xl font-bold text-slate-900 tracking-tight">
+          <h1 className="text-3xl md:text-4xl font-bold text-slate-700 tracking-tight">
             Under Maintenance
           </h1>
-          <p className="text-slate-500 text-lg leading-relaxed max-w-md mx-auto">
-            We are currently updating our platform to serve you better. Check back soon.
+          <p className="text-slate-500 text-lg leading-relaxed max-w-lg mx-auto">
+            We are currently updating our platform to serve you better. <br />Check back soon.
           </p>
         </div>
       </div>
